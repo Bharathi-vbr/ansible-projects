@@ -35,8 +35,7 @@ It covers installing Nginx, deploying a custom HTML page, and configuring the fi
 ---
 
 ## ▶️ Usage
-
-1. **Clone the repository:**
+## **Clone the repository:**
    ```bash
    git clone https://github.com/<your-username>/ansible-webserver.git
    cd ansible-webserver
