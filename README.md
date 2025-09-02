@@ -40,13 +40,13 @@ It covers installing Nginx, deploying a custom HTML page, and configuring the fi
    ```bash
    git clone https://github.com/<your-username>/ansible-webserver.git
    cd ansible-webserver
-Update the inventory file (inventory/hosts.ini):
-
+## Update the inventory file (inventory/hosts.ini):
+  ```bash
 [webservers]
 192.168.56.10 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/id_rsa
+```
 
-
-Run the playbook:
+## Run the playbook:
   ```bash
 ansible-playbook -i inventory/hosts.ini playbooks/deploy-nginx.yml
 ```
@@ -59,7 +59,7 @@ curl http://192.168.56.10
 Or open http://192.168.56.10 in your browser.
 ```
 ## 🔑 Key Features
-  ```bash
+
 ✅ Role-based modular structure
 
 ✅ Idempotent automation (safe to run multiple times)
@@ -69,9 +69,9 @@ Or open http://192.168.56.10 in your browser.
 ✅ Handlers for efficient service management
 
 ✅ Firewall automation with UFW
-```
+
 ## 🎯 Learning Outcomes
-  ```bash
+
 By working with this project, you will learn how to:
 
 Write role-based playbooks in Ansible
@@ -81,7 +81,7 @@ Use handlers and templates effectively
 Manage firewall rules with Ansible modules
 
 Build scalable and reusable automation for infrastructure
-```
+
 ## 🌟 Next Steps
 
 Add SSL (using Let’s Encrypt / Certbot role)
