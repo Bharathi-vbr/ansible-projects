@@ -1,3 +1,9 @@
+# Make sure YAML is detected
+*.yml linguist-detectable=true
 *.yaml linguist-detectable=true
-*.j2 linguist-language=Jinja
+
+# Treat Jinja2 templates as YAML (instead of HTML)
+*.j2 linguist-language=YAML
+
+# Keep real HTML files as HTML
 *.html linguist-language=HTML
