@@ -47,19 +47,19 @@ Update the inventory file (inventory/hosts.ini):
 
 
 Run the playbook:
-   ```bash
+  ```bash
 ansible-playbook -i inventory/hosts.ini playbooks/deploy-nginx.yml
-
+```
 
 Verify deployment:
-
+  ```bash
 curl http://192.168.56.10
 
 
 Or open http://192.168.56.10 in your browser.
-
-🔑 Key Features
-
+```
+## 🔑 Key Features
+  ```bash
 ✅ Role-based modular structure
 
 ✅ Idempotent automation (safe to run multiple times)
@@ -69,9 +69,9 @@ Or open http://192.168.56.10 in your browser.
 ✅ Handlers for efficient service management
 
 ✅ Firewall automation with UFW
-
-🎯 Learning Outcomes
-
+```
+## 🎯 Learning Outcomes
+  ```bash
 By working with this project, you will learn how to:
 
 Write role-based playbooks in Ansible
@@ -81,8 +81,8 @@ Use handlers and templates effectively
 Manage firewall rules with Ansible modules
 
 Build scalable and reusable automation for infrastructure
-
-🌟 Next Steps
+```
+## 🌟 Next Steps
 
 Add SSL (using Let’s Encrypt / Certbot role)
 
