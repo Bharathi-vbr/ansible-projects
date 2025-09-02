@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to {{ ansible_hostname }}</title>
+  </head>
+  <body>
+    <h1>Hello from Ansible!</h1>
+    <p>This web server is managed using an Ansible Role.</p>
+    <p>Deployed on: {{ ansible_date_time.date }} at {{ ansible_date_time.time }}</p>
+  </body>
+</html>
