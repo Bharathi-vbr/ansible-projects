@@ -47,7 +47,7 @@ Update the inventory file (inventory/hosts.ini):
 
 
 Run the playbook:
-
+   ```bash
 ansible-playbook -i inventory/hosts.ini playbooks/deploy-nginx.yml
 
 
